@@ -8,13 +8,13 @@ const ProductPage = () => {
         <Link to='/'>Back</Link>
       </div>
       <h1 className="text-3xl font-bold my-4 text-center">ProductPage</h1>
-      <div className="grid grid-cols-1 justify-center mx-auto md:grid-cols-4 md:grid-row-3 md:grid-flow-cols gap-4 md:justify-between items-center text-center p-4">
+      <div className="grid grid-cols-1 justify-center mx-auto md:grid-cols-4 md:grid-row-3 md:grid-flow-cols gap-8 md:justify-between items-center text-center p-4">
         
         {/* first container card */}
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="./assets/images/first-shade.png"
+              src="./src/assets/images/first-shade.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -34,10 +34,10 @@ const ProductPage = () => {
         </div>
 
         {/* second card */}
-        <div className="card bg-base-100 w-96 shadow-xl ">
+        <div className="card bg-base-100 w-90 shadow-xl ">
           <figure>
             <img
-              src="/src/assets/images/shade-2.png"
+              src="./src/assets/images/shade-2.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -57,10 +57,10 @@ const ProductPage = () => {
         </div>
 
         {/* third card */}
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/images/shade-3.png"
+              src="./src/assets/images/shade-3.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -80,10 +80,10 @@ const ProductPage = () => {
         </div>
 
         {/* fourth card */}
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/images/shade-4.png"
+              src="./src/assets/images/shade-4.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -103,10 +103,10 @@ const ProductPage = () => {
         </div>
 
         {/* fifth card */}
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/images/shade-9.png"
+              src="./src/assets/images/shade-9.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -127,10 +127,10 @@ const ProductPage = () => {
 
 
     {/* sixth card */}
-    <div className="card bg-base-100 w-96 shadow-xl">
+    <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/images/shade-6.png"
+              src="./src/assets/images/shade-6.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -150,10 +150,10 @@ const ProductPage = () => {
         </div>
 
         {/* seventh card */}
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/images/shade-7.png"
+              src="./src/assets/images/shade-7.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -173,10 +173,10 @@ const ProductPage = () => {
         </div>
 
         {/* eighth card */}
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/images/shade-8.png"
+              src="./src/assets/images/shade-8.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -196,10 +196,10 @@ const ProductPage = () => {
         </div>
 
         {/* ninth card */}
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/images/shade-2.png"
+              src="./src/assets/images/shade-2.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -219,10 +219,10 @@ const ProductPage = () => {
         </div>
 
         {/* tenth card */}
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/images/shade-2.png"
+              src="./src/assets/images/shade-2.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -242,10 +242,10 @@ const ProductPage = () => {
         </div>
 
         {/* eleventh card */}
-        <div className="card bg-base-100 w-96 shadow-xl">
+        <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/images/shade-2.png"
+              src="./src/assets/images/shade-2.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -265,10 +265,10 @@ const ProductPage = () => {
         </div>
 
         {/* 12th card */}
-        <div className="card bg-base-100 w-96 shadow-x ">
+        <div className="card bg-base-100 w-90 shadow-x ">
           <figure>
             <img
-              src=".../src/assets/images/shade-9.png"
+              src="./src/assets/images/shade-9.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
