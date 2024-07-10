@@ -14,7 +14,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="../assets/first-shade.png"
+              src=".../assets/first-shade.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
