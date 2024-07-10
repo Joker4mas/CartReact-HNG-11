@@ -14,7 +14,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src=".../assets/first-shade.png"
+              src="./src/assets//images/first-shade.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -37,7 +37,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl ">
           <figure>
             <img
-              src="/src/assets/shade-2.png"
+              src="./src/assets/images/shade-2.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -60,7 +60,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="/src/assets/shade-3.png"
+              src="./src/assets/images/shade-3.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -83,7 +83,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="./src/assets/shade-4.png"
+              src="./src/assets/images/shade-4.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -106,9 +106,10 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="./src/assets/shade-9.png"
+              src="./src/assets/images/shade-9.jpeg"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
+         
           </figure>
           <div className="card-body">
             <h2 className="card-title">Premium Frame</h2>
@@ -130,7 +131,7 @@ const ProductPage = () => {
     <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="./src/assets/shade-6.png"
+              src="./src/assets/images/shade-6.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -153,7 +154,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="./src/assets/shade-7.png"
+              src="./src/assets/images/shade-7.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -176,7 +177,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="./src/assets/shade-8.png"
+              src="./src/assets/images/shade-8.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -199,7 +200,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="./src/assets/shade-2.png"
+              src="./src/assets/images/shade-2.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -222,7 +223,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="./src/assets/shade-3.png"
+              src="./src/assets/images/shade-3.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -245,7 +246,7 @@ const ProductPage = () => {
         <div className="card bg-base-100 w-90 shadow-xl">
           <figure>
             <img
-              src="./src/assets/shade-2.png"
+              src="./src/assets/images/shade-3.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>
@@ -265,10 +266,10 @@ const ProductPage = () => {
         </div>
 
         {/* 12th card */}
-        <div className="card bg-base-100 w-90 shadow-x ">
+        <div className="card bg-base-100 w-90 shadow-xl ">
           <figure>
             <img
-              src="./src/assets/shade-4.png"
+              src="./src/assets/images/shade-4.png"
               alt="Glass frame"
              className=" mt-1 rounded-md"/>
           </figure>

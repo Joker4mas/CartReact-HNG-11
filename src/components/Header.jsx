@@ -9,12 +9,12 @@ function Header() {
   </div>
 
 <div className=" mx-auto">
-    <Link to='/ProductPage' className="text-2xl ">
+    <Link to='/ProductPage' className="text-2xl mr-4">
     Products
     </Link>
 </div>
 
-  <label className="swap swap-rotate">
+  <label className="swap swap-rotate mx-2">
   {/* this hidden checkbox controls the state */}
   <input type="checkbox" className="theme-controller" value="light" />
 
