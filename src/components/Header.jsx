@@ -8,8 +8,8 @@ function Header() {
     <a className="btn btn-ghost text-3xl font-bold">ShadeWorld</a>
   </div>
 
-<div className="mx-auto">
-    <Link to='/ProductPage' className="text-2xl">
+<div className=" mx-auto">
+    <Link to='/ProductPage' className="text-2xl ">
     Products
     </Link>
 </div>
