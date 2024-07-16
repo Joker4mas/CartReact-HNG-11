@@ -64,7 +64,7 @@ const Checkout = () => {
                 <th className="">Product</th>
                 <th className="hidden ">Units</th>
                 <th className="mx-4 hidden">Price</th>
-                <th className="hidden md:block md:-mr-14 border-2 border-green-600">Subtotal</th>
+                <th className="hidden md:block md:-mr-14">Subtotal</th>
               </tr>
             </thead>
             <tbody>
