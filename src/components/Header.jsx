@@ -5,11 +5,11 @@ function Header() {
     <div className="p-2">
       <div className="navbar  shadow-lg">
   <div className="flex-1">
-    <Link to="/" className="btn btn-ghost text-3xl font-bold text-purple-900">ShadeWorld</Link>
+    <Link to="/" className="btn btn-ghost text-xl  md:text-3xl font-bold text-purple-900">ShadeWorld</Link>
   </div>
 
 <div className=" mx-auto">
-    <Link to='/ProductPage' className="text-2xl mr-4 disabled:">
+    <Link to='/' className="text-2xl mr-4 disabled">
     Products
     </Link>
 </div>

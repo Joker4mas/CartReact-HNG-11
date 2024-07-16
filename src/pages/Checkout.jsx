@@ -13,10 +13,10 @@ const Checkout = () => {
 
     <hr className=" border-1 border-gray-300 w-90 mx-8" />
 
-      <div className="flex flex-row justify-around max-w-90 p-4 border-2 border-purple-600 my-4">
+      <div className="flex flex-col  md:flex-row justify-around max-w-90 p-4 my-4">
         <form>
-          <div className="contact grid grid-row-2 grid-row-2 w-70  gap-4 border-2 border-rose-600">
-          <div className="grid grid-cols-2 gap-4 border-2 border-green-600">
+          <div className="contact grid grid-row-2 grid-row-2 p-2  gap-4">
+          <div className="grid grid-col-1 md:grid-cols-2 gap-4">
           <div className="flex flex-col w-80">
             <label htmlFor="name" className="mb-2">First Name:</label>
             <input type="text" id="name" name="name" className="p-2 rounded-xl" placeholder="First Name"  required />
@@ -36,17 +36,8 @@ const Checkout = () => {
           </div>
           </div>
           {/* second form */}
-          <div className="contact grid grid-row-2 grid-row-2 w-70  gap-4 border-2 border-gray-400 my-3 p-2 rounded-lg">
-          <div className="grid grid-cols-2 gap-4 ">
-          <div className="flex flex-col w-80">
-            <label htmlFor="name" className="mb-2">First Name:</label>
-            <input type="text" id="name" name="name" className="p-2 rounded-xl" placeholder="First Name"  required />
-          </div>
-          <div className="flex flex-col  w-80">
-            <label htmlFor="lastName" className="mb-2">Last Name</label>
-            <input type="text" id="LastName" name="lastName" className="p-2 rounded-xl" placeholder="Last Name"  required />
-          </div>
-          </div>
+          <div className="contact grid grid-row-2 grid-row-2  gap-4 my-3 p-2 rounded-lg">
+       
           <div  className="flex flex-col">
             <label htmlFor="phone" className="mb-2">Phone:</label>
             <input type="tel" id="phone" name="phone" className="p-2 rounded-xl" placeholder="Phone Number"    required />
@@ -58,22 +49,22 @@ const Checkout = () => {
           </div>
          
           </form>
-          <div className="border-2   border-slate-300 text-center rounded-lg">
+          <div className="border-2  border-slate-300 text-center rounded-lg">
             <h1 className="font-bold my-4">Order Summary</h1>
             <div>
             <table className="table">
             {/* head */}
             <thead>
-              <tr>
+              <tr className="">
                 <th>
                   {/* <label>
                     <input type="checkbox" className="checkbox" />
                   </label> */}
                 </th>
-                <th>Product</th>
-                <th className="hidden">Units</th>
-                <th className="mx-4">Price</th>
-                <th className="hidden">Subtotal</th>
+                <th className="">Product</th>
+                <th className="hidden ">Units</th>
+                <th className="mx-4 hidden">Price</th>
+                <th className="hidden md:block md:-mr-14 border-2 border-green-600">Subtotal</th>
               </tr>
             </thead>
             <tbody>
@@ -89,7 +80,7 @@ const Checkout = () => {
                     <div className="avatar">
                       <div className="h-20 w-20 rounded-md">
                         <img
-                          src="/src/assets/images/shade-9.jpeg"
+                          src="/images/shade-9.jpeg"
                           alt="Avatar Tailwind CSS Component"
                         />
                       </div>
@@ -115,7 +106,7 @@ const Checkout = () => {
 
               {/* row 2 */}
               <tr>
-                <th>
+                <th className="hidden md:flex">
                   <label>
                     <input type="checkbox" className="checkbox" />
                   </label>
@@ -125,7 +116,7 @@ const Checkout = () => {
                     <div className="avatar">
                       <div className="h-20 w-20 rounded-md">
                         <img
-                          src="/src/assets/images/shade-9.jpeg"
+                          src="/images/shade-9.jpeg"
                           alt="Avatar Tailwind CSS Component"
                         />
                       </div>
@@ -151,7 +142,7 @@ const Checkout = () => {
 
               {/* row 3 */}
               <tr>
-                <th>
+                <th className="hidden md:flex">
                   <label>
                     <input type="checkbox" className="checkbox" />
                   </label>
@@ -161,7 +152,7 @@ const Checkout = () => {
                     <div className="avatar">
                       <div className="h-20 w-20 rounded-md">
                         <img
-                          src="/src/assets/images/shade-9.jpeg"
+                          src="/images/shade-9.jpeg"
                           alt="Avatar Tailwind CSS Component"
                         />
                       </div>
@@ -187,7 +178,7 @@ const Checkout = () => {
 
               {/* row 4 */}
               <tr>
-                <th>
+                <th className="hidden md:flex">
                   <label>
                     <input type="checkbox" className="checkbox" />
                   </label>
@@ -197,7 +188,7 @@ const Checkout = () => {
                     <div className="avatar">
                       <div className="h-20 w-20 rounded-md">
                         <img
-                          src="/src/assets/images/shade-9.jpeg"
+                          src="/images/shade-9.jpeg"
                           alt="Avatar Tailwind CSS Component"
                         />
                       </div>
