@@ -3,13 +3,13 @@ import { Link } from "react-router-dom"
 function Header() {
   return (
     <div className="p-2">
-      <div className="navbar bg-base-100 shadow-lg">
+      <div className="navbar  shadow-lg">
   <div className="flex-1">
-    <a className="btn btn-ghost text-3xl font-bold">ShadeWorld</a>
+    <Link to="/" className="btn btn-ghost text-3xl font-bold text-purple-900">ShadeWorld</Link>
   </div>
 
 <div className=" mx-auto">
-    <Link to='/ProductPage' className="text-2xl mr-4">
+    <Link to='/ProductPage' className="text-2xl mr-4 disabled:">
     Products
     </Link>
 </div>
@@ -20,7 +20,7 @@ function Header() {
 
   {/* sun icon */}
   <svg
-    className="swap-off h-10 w-10 fill-current"
+    className="swap-off h-6 w-6 fill-current"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24">
     <path
@@ -29,7 +29,7 @@ function Header() {
 
   {/* moon icon */}
   <svg
-    className="swap-on h-10 w-10 fill-current"
+    className="swap-on h-6 w-6 fill-current"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24">
     <path
@@ -43,7 +43,7 @@ function Header() {
         <div className="indicator">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
+            className="h-6 w-6"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor">
@@ -66,7 +66,7 @@ function Header() {
           <span className="text-lg font-bold">8 Items</span>
           <span className="text-info">Subtotal: $999</span>
           <div className="card-actions">
-            <button className="btn btn-primary btn-block">View cart</button>
+            <button className="btn bg-purple-950 text-white btn-block"> <Link to="/CartPage">View cart</Link> </button>
           </div>
         </div>
       </div>

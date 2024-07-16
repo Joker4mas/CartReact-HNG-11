@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: hsl(270, 15%, 92%)
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

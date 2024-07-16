@@ -8,9 +8,12 @@ function App() {
 
   return (
     <>
+    <div>
+
     <Header/>
     <ProductPage/>
      
+    </div>
     </>
   )
 }
